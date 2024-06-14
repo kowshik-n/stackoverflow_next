@@ -1,8 +1,12 @@
-{
+ {
   "extends": [
+    "next",
     "next/core-web-vitals",
     "standard",
     "plugin:tailwindcss/recommended",
     "prettier"
-  ]
+  ],
+  "rules": {
+    "tailwindcss/classnames-order": "error"
+  }
 }
