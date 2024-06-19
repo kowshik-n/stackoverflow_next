@@ -1,7 +1,7 @@
 import NavBar from "@/components/shared/navbar/NavBar";
 import React from "react";
 
-const Layout = ({ children }: { childrean: React.ReactNode }) => {
+const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <main className="background-light850_dark100 relative">
       <NavBar />

@@ -9,7 +9,7 @@ interface ThemeContextType {
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const [mode, setMode] = useState<string>("light"); // Initialize mode with 'light'
+  const [mode, setMode] = useState<string>("dark"); // Initialize mode with 'light'
 
   useEffect(() => {
     // Toggle theme class on document element
