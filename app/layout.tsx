@@ -52,7 +52,7 @@ export default function RootLayout({
           <SignedIn>
             <UserButton />
           </SignedIn> */}
-          <div className="h1-bold">This a peice of code</div>
+          {/* <div className="h1-bold">This a peice of code</div> */}
         </ClerkProvider>
       </body>
     </html>

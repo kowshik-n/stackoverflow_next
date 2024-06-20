@@ -16,9 +16,9 @@ const NavBar = () => {
           Dev <span className="text-primary-500">Overflow</span>
         </p>
       </Link>
-      Global Search
+      {/* Global Search */}
       <div className="flex-between gap-5">
-        Theme
+        {/* Theme */}
         <SignedIn>
           <UserButton
             afterSignOutUrl="/"
@@ -30,7 +30,7 @@ const NavBar = () => {
             }}
           ></UserButton>
         </SignedIn>
-        Mobile Nav
+        {/* Mobile Nav */}
       </div>
     </nav>
   );
