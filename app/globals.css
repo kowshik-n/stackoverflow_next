@@ -9,6 +9,11 @@ body {
 }
 
 @layer utilities {
+  .outline {
+    @apply border-solid border-black rounded-md;
+    /* For knowing the layout i have used */
+  }
+
   .flex-center {
     @apply flex justify-center items-center;
   }
